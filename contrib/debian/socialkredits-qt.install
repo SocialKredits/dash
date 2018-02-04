@@ -1,0 +1,6 @@
+usr/local/bin/socialkredits-qt usr/bin
+share/pixmaps/socialkredits32.xpm usr/share/pixmaps
+share/pixmaps/socialkredits16.xpm usr/share/pixmaps
+share/pixmaps/socialkredits128.png usr/share/pixmaps
+debian/socialkredits-qt.desktop usr/share/applications
+debian/socialkredits-qt.protocol usr/share/kde4/services/

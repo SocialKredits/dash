@@ -1,0 +1,22 @@
+[Unit]
+Description=socialkredits's distributed currency daemon
+After=network.target
+
+[Service]
+User=socialkreditscore
+Group=socialkreditscore
+
+Type=forking
+PIDFile=/var/lib/socialkreditsd/socialkreditsd.pid
+ExecStart=/usr/bin/socialkreditsd -daemon -pid=/var/lib/socialkreditsd/socialkreditsd.pid \
+-conf=/etc/socialkreditscore/socialkredits.conf -datadir=/var/lib/socialkreditsd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

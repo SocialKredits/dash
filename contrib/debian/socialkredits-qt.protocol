@@ -1,0 +1,11 @@
+[Protocol]
+exec=socialkredits-qt '%u'
+protocol=socialkredits
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

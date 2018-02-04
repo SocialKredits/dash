@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=socialkredits
+Comment=socialkredits P2P Cryptocurrency
+Comment[fr]=socialkredits, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=socialkredits, eşten eşe kriptografik sanal para birimi
+Exec=socialkredits-qt %u
+Terminal=false
+Type=Application
+Icon=socialkredits128
+MimeType=x-scheme-handler/socialkredits;
+Categories=Office;Finance;
